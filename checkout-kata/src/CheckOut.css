@@ -1,0 +1,26 @@
+.checkout {
+    width:100%;
+}
+h1 {
+    text-align: center;
+}
+div#CheckoutPage {
+    width: 100%;
+    text-align: center;
+}
+.checkout .item {
+    display: inline-block;
+    width: 200px;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid grey;
+}
+.strikethrough {
+    text-decoration: line-through;
+    font-size:.75em;
+    color:red;
+}
+.price:before, .special:before {
+    content:"£";
+}
