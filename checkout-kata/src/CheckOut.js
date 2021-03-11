@@ -20,10 +20,9 @@ function CheckOut() {
             {Product.price}
             </div>  }
             <div className="quantity">
-            <input type="number" id="quantity" name="quantity"
-       min="0" max="10"/>
+            <input type="number" id="quantity" name="quantity" min="0" max="10"/>
             </div>
-            <div className="addtobasket"><button onClick={""} ></button></div>
+            <div className="addtobasket"><button > Add to Basket </button></div> //TODO add onclick 
         </div>
       ))}
     </div>
